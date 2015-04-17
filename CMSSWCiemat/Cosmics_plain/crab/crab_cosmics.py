@@ -1,8 +1,9 @@
 from CRABClient.UserUtilities import config
 config = config()
 
-config.General.requestName = 'Cosmics2015_V2'
-config.General.workArea = 'Crab_Cosmics2015_V1'
+config.General.requestName = 'Cosmics2015_V3'
+config.General.workArea = 'Cosmics2015_PROD'
+config.General.transferOutputs=True
 
 config.JobType.pluginName = 'Analysis'
 config.JobType.psetName = 'Cosmic_data_inter.py'
